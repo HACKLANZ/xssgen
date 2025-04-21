@@ -6,7 +6,7 @@ python xssgen.py -t waf_bypass -c input -n 5
 
   -h, --help            show this help message and exit
   -t, --text TEXT       Custom payload text
-  -c, --context {basic,input,js_var,json,evasion,user_interaction,waf_bypass}
+  -c, --context         {basic,input,js_var,json,evasion,user_interaction,waf_bypass}
                         Payload context type
   -n, --count COUNT     Number of payloads to generate
 
