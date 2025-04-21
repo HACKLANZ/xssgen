@@ -1,5 +1,5 @@
 # xssgen
-This is a python tool for generating XSS payloads.
+This is a python script / tool for generating XSS payloads. 
 
 # USAGE:
 python xssgen.py {-t TEXT} {-c CONTEXT} {-n COUNT }
