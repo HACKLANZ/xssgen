@@ -10,7 +10,7 @@ python xssgen.py [-t TEXT] [-c CONTEXT] [-n COUNT]
                         Payload context type
   -n, --count COUNT     Number of payloads to generate
 
-CONTEXT: 
+# CONTEXT: 
   - basic            General-purpose payloads
   - input            Payloads for HTML input fields
   - js_var           Payloads in JavaScript variable context
@@ -19,5 +19,5 @@ CONTEXT:
   - user_interaction Payloads requiring user actions (click, blur, etc.)
   - waf_bypass       Advanced payloads for bypassing WAFs
 
-HELP MENU:
+# HELP MENU:
 python xssgen.py -h
