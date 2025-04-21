@@ -2,13 +2,16 @@
 This is a python tool for generating XSS payloads.
 
 # USAGE:
-python xssgen.py -t waf_bypass -c input -n 5
+python xssgen.py {-t TEXT} {-c CONTEXT} {-n COUNT }
 
-  -h, --help            show this help message and exit
-  -t, --text TEXT       Custom payload text
-  -c, --context         {basic,input,js_var,json,evasion,user_interaction,waf_bypass}
+  -h, --help          =    show this help message and exit
+  
+  -t, --text TEXT     =   Custom payload text
+  
+  -c, --context       =   {basic,input,js_var,json,evasion,user_interaction,waf_bypass}
                         Payload context type
-  -n, --count COUNT     Number of payloads to generate
+                        
+  -n, --count COUNT   =  Number of payloads to generate
 
 # CONTEXT: 
   - basic                   =     General-purpose payloads
