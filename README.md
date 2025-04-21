@@ -2,7 +2,7 @@
 This is a python tool for generating XSS payloads.
 
 # USAGE:
-python xssgen.py [-t TEXT] [-c CONTEXT] [-n COUNT]
+python xssgen.py -t waf_bypass -c input -n 5
 
   -h, --help            show this help message and exit
   -t, --text TEXT       Custom payload text
